@@ -38,7 +38,8 @@ public class ThirdMethod {
 
         }
         //System.out.println("this is xtoplam "+xtoplam);
-//BURADA HATA VAR
+//BURADA HATA VAR!!! HATAYI ÇÖZEN BİLDİRSİN [double b= q/w;] BU KOD DOĞRU ÇALIŞMIYOR
+        
         double q= (24*xytoplam-xtoplam*ytoplam);
         double w=(24*xxtoplam-xtoplam*xtoplam);
         double b= q/w;
