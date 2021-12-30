@@ -10,9 +10,9 @@ public class FourthMethod {
 
         double Overall=0;
         for (int i = 0; i<24; i++){
-            Overall=Home.list.getByPosition(i).getName()+Overall;
+            Overall=Home.data1()[i]+Overall;
         }
-        Overall= Overall/ Home.list.size();
+        Overall= Overall/ 24;
         double[] Seasonal= new double[12];
         for (int i = 0; i<12; i++){
             Seasonal[i]= ((Home.data1()[i]+ Home.data1()[i+12])/2)/Overall;
